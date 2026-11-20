@@ -1,6 +1,8 @@
-# app.py
+def get_message(name="Jenkins"):
+    return f"Hello, {name}!"
+
 def main():
-    print("Hello, Jenkins!")
+    print(get_message())
 
 if __name__ == "__main__":
     main()
